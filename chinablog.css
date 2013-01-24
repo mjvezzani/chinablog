@@ -1,0 +1,40 @@
+body {
+    background: #885;
+}
+
+h1, h2, h3, h4, h5, h6, p, ul {
+    margin: 0;
+    padding: 0;
+}
+#banner {
+    position: relative;
+    margin-top: 45px;
+}
+#wrap {
+    position: relative;
+    width: 940px;
+    margin: 0 auto;
+    border-radius: 3px;
+    background-image: url('../../Desktop/HTML/Images/subtle_grunge/subtle_grunge.png');
+}
+
+#hero {
+    background: #555;
+    position: relative;
+    width: 800px;
+    margin: 0 auto;
+    border-radius: 2px;
+}
+
+#topNav {
+
+}
+#topNav ul {
+    list-style: none;
+}
+#topNav ul li {
+
+}
+#topNav ul li a {
+
+}
