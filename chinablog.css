@@ -6,35 +6,90 @@ h1, h2, h3, h4, h5, h6, p, ul {
     margin: 0;
     padding: 0;
 }
-#banner {
-    position: relative;
-    margin-top: 45px;
-}
-#wrap {
-    position: relative;
-    width: 940px;
+
+
+/*================================
+Everything inside the #wrap
+================================*/
+
+#wrap{
+    width:920px;
     margin: 0 auto;
-    border-radius: 3px;
-    background-image: url('../../Desktop/HTML/Images/subtle_grunge/subtle_grunge.png');
-}
-
-#hero {
-    background: #555;
     position: relative;
-    width: 800px;
+    background: #EEE;
+}
+
+/*====================================
+Top Banner - includes #hero & #topNav
+====================================*/
+#banner{     /*Contains #hero and #topNav*//*Is contained within the #wrap*/
+    width: 850px;
+    margin: 25px auto; /*This pushes the main content down, but doesn't create
+                        a margin between its top border and the top border of the
+                        #wrap. */
+    background: #AAA;
+    position: relative;
+}
+
+            /*=============
+            Hero Unit
+            =============*/
+#hero{      /*Is contained within #banner*/
+    width: 820px;
+    margin: 25px auto; /*This pushes the #topNav down 25px, but doesn't
+                        create a margin between its top border and the top
+                        border of the #banner.*/
+    background: #888;
+    position: relative;
+    display: block;
+}
+
+            /*=================
+            Navigation Bar
+            =================*/
+#topNav{    /*Is contained within #banner*/
+    width: 820px;
     margin: 0 auto;
-    border-radius: 2px;
+    background: #888;
+    border-top: 1px solid #555;
+    position: relative;
 }
-
-#topNav {
-
-}
-#topNav ul {
+#topNav ul{
     list-style: none;
 }
-#topNav ul li {
+#topNav ul li{
 
 }
-#topNav ul li a {
+#topNav ul li a{
+
+}
+
+/*=======================================
+Main Content - this includes #mainContent
+#leftSide, #rightSide, and #footer.
+========================================*/
+
+#mainContent{    /*Contains #leftSide, #rightSide, #footer*//*Is contained within the #wrap*/
+
+}
+
+            /*========
+            Left Side
+            ========*/
+#leftSide{       /*Is contained within #mainContent*/
+
+}
+
+            /*=========
+            Right Side
+            =========*/
+#rightSide{      /*Is contained within #mainContent*/
+
+}
+
+            /*=====
+            Footer
+            =====*/
+#footer{         /*Is contained within #mainContent*/
 
 }
